@@ -1,7 +1,7 @@
 # Project: Cassava Leaf Disease Classification
 Identify the type of disease present on a Cassava Leaf image
 
-### Use Case
+## Use Case
 Cassava is the second-largest source of carbohydrates in Africa and commonly grown by smallholder farmers because it can overcome harsh conditions. It is estimated that around 80% of smallholder farms in Sub-Saharan Africa grow cassava, however; the crop often yields poorly due to viral diseases. With the use of data science techniques, it may be possible to automate the process of identifying common cassava diseases, so they can be quickly treated.
 
 Generally, farmers have to solicit the help of government-funded agricultural experts to visually inspect the plants. This is time-consuming, labor-intensive, and there may not be an expert available at all times. Additionally, the pictures that are supplied by African farmers may be of poor quality, since many only have access to poor quality cameras and low-bandwith.
