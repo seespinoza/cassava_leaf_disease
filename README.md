@@ -26,14 +26,14 @@ To find a solution to the cassava classification problem we performed the follow
  - Calculated ROC curve and AUC
  - Calculated recall, precision, and f1-score
 
-ResNet18 is describe in this [paper](https://arxiv.org/pdf/1512.03385.pdf)
+ResNet18 is described in this [paper](https://arxiv.org/pdf/1512.03385.pdf).
 
 ### Running Code
 
 The entire project was developed on a `g4dn.xlarge` instance on Amazon using Ubuntu 20.04.
 For in-depth instructions on how to properly install all libraries please refer to step 6 [here](https://course.fast.ai/start_aws).
 
-`Files:`
+Files:
 - `fastai_computer_vision.ipynb`: Jupyter notebook containing entire project exploratory data analysis and modeling results
 
 ### Conclusion
