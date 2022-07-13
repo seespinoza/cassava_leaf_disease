@@ -30,7 +30,7 @@ ResNet18 is described in this [paper](https://arxiv.org/pdf/1512.03385.pdf).
 
 ### Running Code
 
-The entire project was developed on a `g4dn.xlarge` instance on Amazon using Ubuntu 20.04.
+The entire project was developed on a `g4dn.xlarge` instance on AWS using Ubuntu 20.04.
 For in-depth instructions on how to properly install all libraries please refer to step 6 [here](https://course.fast.ai/start_aws).
 
 Files:
