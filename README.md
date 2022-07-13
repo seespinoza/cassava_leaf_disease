@@ -18,13 +18,13 @@ To find a solution to the cassava classification problem we performed the follow
 1) Fine-tuned ResNet18 on imbalanced cassava leaf data
 2) Fine-tuned ResNet18 on imbalanced cassava leaf data using minimum/10 learning rate
 4) Used data augmentation to balance classification dataset
- - Transformations used: horizontal flip, vertical flip, center crop, rotation, perspective, and color jitter.
+  - Transformations used: horizontal flip, vertical flip, center crop, rotation, perspective, and color jitter.
 3) Fine-tuned ResNet18 on balanced cassava leaf data using minimum/10 learning rate
 4) Created baseline model that uses average tensor of each class to generate predictions
- - Note: Only 500 images were used in each class due to limited resouurces
+  - Note: Only 500 images were used in each class due to limited resouurces
 5) Compared performance of all models
- - Calculated ROC curve and AUC
- - Calculated recall, precision, and f1-score
+  - Calculated ROC curve and AUC
+  - Calculated recall, precision, and f1-score
 
 ResNet18 is described in this [paper](https://arxiv.org/pdf/1512.03385.pdf).
 
