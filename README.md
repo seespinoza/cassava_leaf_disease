@@ -11,7 +11,7 @@ This classification problem contains 21,367 labeled images collected during a re
 The task is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. This will help farmers to quickly identify diseased plants before any damage is done to their crop.
 
 
-### Project Description
+## Project Description
 
 To find a solution to the cassava classification problem we performed the following steps:
 
@@ -28,7 +28,7 @@ To find a solution to the cassava classification problem we performed the follow
 
 ResNet18 is described in this [paper](https://arxiv.org/pdf/1512.03385.pdf).
 
-### Running Code
+## Running Code
 
 The entire project was developed on a `g4dn.xlarge` instance on AWS using Ubuntu 20.04.
 For in-depth instructions on how to properly install all libraries please refer to step 6 [here](https://course.fast.ai/start_aws).
@@ -36,7 +36,7 @@ For in-depth instructions on how to properly install all libraries please refer 
 Files:
 - `fastai_computer_vision.ipynb`: Jupyter notebook containing entire project exploratory data analysis and modeling results
 
-### Conclusion
+## Conclusion
 
 Our recommendation is that the NaCCRI and Makerere University implement a ResNet18 model fine-tuned on augmented data to help automate detection of cassava leaf diseases. Although the augmented data did not significantly change the performance of the fine-tuned model on test data, we suspect this model is more likely to better generalize to future datasets. It has been [shown](https://arxiv.org/pdf/1904.12848.pdf) that models trained on augmented data tend to generalize better to different datasets. 
 
